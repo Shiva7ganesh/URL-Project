@@ -20,7 +20,7 @@ import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/url")
+@RequestMapping("/api/url")
 public class urlController {
 
     private final urlService urlservice;
